@@ -26,7 +26,6 @@
 		F413B5F5167DD304009CA043 /* SDShotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F413B5F4167DD303009CA043 /* SDShotListViewController.m */; };
 		F413B5F8167DD4B0009CA043 /* SDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F413B5F7167DD4B0009CA043 /* SDTabBarController.m */; };
 		F413B5FA167DE228009CA043 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F413B5F9167DE228009CA043 /* CoreData.framework */; };
-		F413B637167DEC0E009CA043 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F413B636167DEC0E009CA043 /* CoreDataTableViewController.m */; };
 		F413B63B167E2A2D009CA043 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F413B639167E2A2D009CA043 /* Model.xcdatamodeld */; };
 		F413B641167E77D2009CA043 /* Shot.m in Sources */ = {isa = PBXBuildFile; fileRef = F413B640167E77D1009CA043 /* Shot.m */; };
 /* End PBXBuildFile section */
@@ -59,8 +58,6 @@
 		F413B5F6167DD4B0009CA043 /* SDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTabBarController.h; sourceTree = "<group>"; };
 		F413B5F7167DD4B0009CA043 /* SDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTabBarController.m; sourceTree = "<group>"; };
 		F413B5F9167DE228009CA043 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F413B635167DEC0E009CA043 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
-		F413B636167DEC0E009CA043 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
 		F413B63A167E2A2D009CA043 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F413B63F167E77D1009CA043 /* Shot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shot.h; path = ../model/Shot.h; sourceTree = "<group>"; };
 		F413B640167E77D1009CA043 /* Shot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shot.m; path = ../model/Shot.m; sourceTree = "<group>"; };
@@ -113,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				F413B642167E784C009CA043 /* model */,
-				F413B635167DEC0E009CA043 /* CoreDataTableViewController.h */,
-				F413B636167DEC0E009CA043 /* CoreDataTableViewController.m */,
 				F413B5CB167CD298009CA043 /* SDAppDelegate.h */,
 				F413B5CC167CD298009CA043 /* SDAppDelegate.m */,
 				F413B5D4167CD298009CA043 /* MainStoryboard.storyboard */,
@@ -236,7 +231,6 @@
 				F413B5F2167D0ECE009CA043 /* SDShotList.m in Sources */,
 				F413B5F5167DD304009CA043 /* SDShotListViewController.m in Sources */,
 				F413B5F8167DD4B0009CA043 /* SDTabBarController.m in Sources */,
-				F413B637167DEC0E009CA043 /* CoreDataTableViewController.m in Sources */,
 				F413B63B167E2A2D009CA043 /* Model.xcdatamodeld in Sources */,
 				F413B641167E77D2009CA043 /* Shot.m in Sources */,
 			);
